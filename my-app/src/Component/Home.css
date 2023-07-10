@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+    
+}
+.title{
+  text-align: center;
+  margin: 20px auto;
+  font-size: 30px;
+}
+form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    gap: 5px 0;
+
+}
+
+form>input{
+    padding: 10px 20px;
+    margin: 5px 0;
+    
+}
+
+form>button{
+  padding: 10px 20px;
+  margin: 5px 0;
+}
+
+.table{
+  width: 80%;
+  display: flex;
+  margin: 20px auto;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  border: 0.2px solid grey;
+  
+  
+}
+.action button{
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+
+@media screen and (max-width: 1040px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  form{
+    width: 80%;
+  }
+  body {
+    background-color: lightgreen;
+  }
+}
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+    .table{
+      display: block;
+      text-align: center;
+      gap: 10px 0;
+  
+    }
+  }
